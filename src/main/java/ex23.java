@@ -8,10 +8,9 @@ import java.util.Scanner;
 public class ex23 {
     public static void main(String[] args) {
         Scanner inScan = new Scanner(System.in);
-        String answer;
 
         System.out.print("Answer with y for yes or n for no\nIs the car silent when you turn the key? ");
-        answer = inScan.next().toLowerCase();
+        String answer = inScan.next().toLowerCase();
         if (answer.equals("y") ){
 
             System.out.print("Are the battery terminals corroded? ");
